@@ -1,0 +1,10 @@
+services:
+  unrealircd:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: unrealircd-containerized:latest
+    volumes:
+      - "./unrealircd.conf:/app/conf/unrealircd.conf"
+      - "./server.cert.pem:/app/conf/tls/server.cert.pem"
+      - "./server.key.pem:/app/conf/tls/server.key.pem"
