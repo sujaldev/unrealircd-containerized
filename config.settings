@@ -1,0 +1,31 @@
+#
+# These are the settings saved from running './Config'.
+# Note that it is not recommended to edit config.settings by hand!
+# Chances are you misunderstand what a variable does or what the
+# supported values are. You better just re-run the ./Config script
+# and answer appropriately there, to get a correct config.settings
+# file.
+#
+BASEPATH="/app"
+BINDIR="/app/bin"
+DATADIR="/app/data"
+CONFDIR="/app/conf"
+MODULESDIR="/app/modules"
+LOGDIR="/app/logs"
+CACHEDIR="/app/cache"
+DOCDIR="/app/doc"
+TMPDIR="/app/tmp"
+PRIVATELIBDIR="/app/lib"
+MAXCONNECTIONS_REQUEST="auto"
+NICKNAMEHISTORYLENGTH="2000"
+GEOIP="classic"
+DEFPERM="0600"
+SSLDIR=""
+REMOTEINC=""
+CURLDIR=""
+NOOPEROVERRIDE=""
+OPEROVERRIDEVERIFY=""
+GENCERTIFICATE="1"
+SANITIZER=""
+EXTRAPARA="--enable-libcurl=/usr"
+ADVANCED=""
