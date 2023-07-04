@@ -29,4 +29,4 @@ RUN tar xvzf /tmp/unrealircd-latest.tar.gz \
 
 # Start Server
 WORKDIR /app
-ENTRYPOINT ["/app/unrealircd", "start"]
+ENTRYPOINT ["/bin/sh", "-c", "/app/unrealircd start && tail -f /app/logs/ircd.log"]
