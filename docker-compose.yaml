@@ -8,3 +8,6 @@ services:
       - "./unrealircd.conf:/app/conf/unrealircd.conf"
       - "./server.cert.pem:/app/conf/tls/server.cert.pem"
       - "./server.key.pem:/app/conf/tls/server.key.pem"
+    ports:
+      - "6667:6667"
+      - "6697:6697"
